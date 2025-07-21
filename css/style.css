@@ -268,6 +268,11 @@ footer {
     min-height: 300px;
 }
 
+.footer-text {
+    color: #7188D9;
+    font-weight: 700;
+}
+
 #footer-container {
 
     width: 80%;
@@ -275,18 +280,19 @@ footer {
     align-items: center;
     margin-top: 5px;
     margin-bottom: 20px;
+}
 
-    /* DEBUG */
-    background-color: #DAA51D;
-    height: 300px;
+#footer-container li {
+    text-align: justify;
+    padding: 5px;
 }
 
 .contact-footer {
     width: 20%;
     /* DEBUG */
-    background-color: #F08180;
+    /* background-color: #F08180;
     height: 300px;
-    border: 2px dashed black;
+    border: 2px dashed black; */
 
 }
 
@@ -300,40 +306,22 @@ footer {
     width: 25%;
 
     /* DEBUG */
-    background-color: #20B3AA;
+    /* background-color: #20B3AA;
     height: 300px;
-    border: 2px dashed white;
+    border: 2px dashed white; */
 
 }
 
 .company-footer {
     width: 25%;
-
-    /* DEBUG */
-    background-color: #20B3AA;
-    height: 300px;
-    border: 2px dashed white;
-
 }
 
 .resource-footer {
     width: 25%;
-
-    /* DEBUG */
-    background-color: #20B3AA;
-    height: 300px;
-    border: 2px dashed white;
-
 }
 
 .norm-footer {
     width: 25%;
-
-    /* DEBUG */
-    background-color: #20B3AA;
-    height: 300px;
-    border: 2px dashed white;
-
 }
 
 /* Sign-up & logo */
@@ -376,4 +364,3 @@ footer {
 
 }
 
-*/
