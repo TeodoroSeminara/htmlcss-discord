@@ -7,13 +7,25 @@
 
 /* Generics */
 
+body {
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
 ul {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.button-layout {
+
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px;
 }
 
 /* Header */
@@ -23,10 +35,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #3160E0;
-    /* DEBUG */
-    /* background-color: #ACD7E5;
-    min-height: 300px; */
+    background-color: #255EE9;
 }
 
 /* Header Logo/nav/Login */
@@ -72,7 +81,6 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding-right: 5px;
-    marg
     /* DEBUG */
     /* background-color: #DAA51D;
     border: 2px dashed black;
@@ -104,7 +112,7 @@ header {
 
 /* Container Backsection */
 
-.container-back {
+ .container-back {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,4 +317,4 @@ footer {
     border-top: 1px solid #fff;
     padding-top: 20px;
 
-}
+} */
