@@ -23,9 +23,10 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #3160E0;
     /* DEBUG */
-    background-color: #ACD7E5;
-    min-height: 300px;
+    /* background-color: #ACD7E5;
+    min-height: 300px; */
 }
 
 /* Header Logo/nav/Login */
@@ -33,11 +34,9 @@ header {
 
     width: 80%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 10px 0;
     /* DEBUG */
-    height: 30px;
+    /* height: 30px; */
 }
 
 /* logo */
@@ -45,11 +44,6 @@ header {
     display: flex;
     align-items: center;
     width: 20%;
-    padding-left: 5px;
-    /* DEBUG */
-    background-color: #DAA51D;
-    border: 2px dashed black;
-    height: 30px;
 
 }
 
@@ -58,18 +52,17 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    /* DEBUG */
-    background-color: #DAA51D;
-    border: 2px dashed black;
-    height: 30px;
+    margin: 20px auto;
 }
 
 .nav-top ul {
-    width: 40%;
+    /* width: 40%; */
     display: flex;
     justify-content: space-evenly;
+}
 
+.nav-top li {
+    padding: 0 10px;
 }
 
 /* login button */
@@ -79,10 +72,11 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding-right: 5px;
+    marg
     /* DEBUG */
-    background-color: #DAA51D;
+    /* background-color: #DAA51D;
     border: 2px dashed black;
-    height: 30px;
+    height: 30px; */
 
 }
 
@@ -94,16 +88,16 @@ header {
     justify-content: center;
     align-items: center;
     /* DEBUG */
-    background-color: #00018B;
-    height: 300px;
+    /* background-color: #00018B;
+    height: 300px; */
 }
 
 .jumbotron {
     width: 60%;
     /* DEBUG */
-    background-color: #EF82ED;
+    /* background-color: #EF82ED;
     height: 250px;
-    border: 2px dashed black;
+    border: 2px dashed black; */
 }
 
 /* Main */
