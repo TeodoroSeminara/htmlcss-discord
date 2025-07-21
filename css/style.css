@@ -25,10 +25,13 @@ a {
 .button-layout {
 
     background-color: #fff;
-    border-radius: 20px;
-    padding: 8px;
+    border-radius: 50px;
+    padding: 15px;
     color: black;
     margin: 20px;
+}
+.arrow-size {
+    padding-right: 5px;
 }
 
 .light-blue {
@@ -263,6 +266,8 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 50px;
+    color: white;
     /* DEBUG */
     background-color: #23272A;
     min-height: 300px;
@@ -289,11 +294,7 @@ footer {
 
 .contact-footer {
     width: 20%;
-    /* DEBUG */
-    /* background-color: #F08180;
-    height: 300px;
-    border: 2px dashed black; */
-
+    
 }
 
 .nav-footer {
@@ -304,12 +305,10 @@ footer {
 
 .product-footer {
     width: 25%;
-
     /* DEBUG */
     /* background-color: #20B3AA;
     height: 300px;
     border: 2px dashed white; */
-
 }
 
 .company-footer {
@@ -328,39 +327,36 @@ footer {
 
 #end-footer {
 
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     /* DEBUG */
-    background-color: #7FFFD4;
-    height: 50px;
+    /* background-color: #7FFFD4;
+    height: 50px; */
 }
 
 .logo-footer {
     padding-left: 5px;
-    /* DEBUG */
-    background-color: #FDB7BF;
-    height: 20px;
-    border: 2px dashed black;
 }
 
 .sign-up-button {
     padding-right: 5px;
     /* DEBUG */
-    background-color: #FDB7BF;
+    /* background-color: #FDB7BF;
     height: 20px;
-    border: 2px dashed black;
+    border: 2px dashed black; */
 }
 
 #end-footer-container {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #fff;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    border-top: 1px solid #8EA1E2;
 
 }
 
