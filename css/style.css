@@ -1,0 +1,318 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* DEBUG */
+    background-color: #ACD7E5;
+    min-height: 300px;
+}
+
+/* Header Logo/nav/Login */
+.header-container {
+
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    /* DEBUG */
+    height: 30px;
+}
+
+/* logo */
+#logo-header {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    padding-left: 5px;
+    /* DEBUG */
+    background-color: #DAA51D;
+    border: 2px dashed black;
+    height: 30px;
+
+}
+
+/* nav */
+.nav-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* DEBUG */
+    background-color: #DAA51D;
+    border: 2px dashed black;
+    height: 30px;
+}
+
+.nav-top ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+/* login button */
+#login {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    /* DEBUG */
+    background-color: #DAA51D;
+    border: 2px dashed black;
+    height: 30px;
+
+}
+
+/* Jumbotron */
+
+#jumbotron-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    background-color: #00018B;
+    height: 300px;
+}
+
+.jumbotron {
+    width: 60%;
+    /* DEBUG */
+    background-color: #EF82ED;
+    height: 250px;
+    border: 2px dashed black;
+}
+
+/* Main */
+
+/* Container Backsection */
+
+.container-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* container width 60 */
+.container-w60 {
+    /* flex-grow: 1; */
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
+    /* DEBUG */
+    background-color: #1E90FF;
+    height: 250px;
+    border: 2px dashed black;
+}
+
+/* container width 40 */
+.container-w40 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40%;
+    /* DEBUG */
+    background-color: #FFC0CA;
+    height: 250px;
+    border: 2px dashed black;
+}
+
+/* Hashtag section */
+
+.hashtag {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Voice */
+
+#voice-container {
+    /* DEBUG */
+    background-color: #D3D3D3;
+}
+
+.voice {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* People */
+
+#people-container {
+    /* DEBUG */
+    background-color: #fff;
+}
+
+.people {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tech */
+
+#tech-container {
+    /* DEBUG */
+    background-color: #D3D3D3;
+}
+
+.tech {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+    /* DEBUG */
+    background-color: #218B21;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* DEBUG */
+    background-color: #23272A;
+    min-height: 300px;
+}
+
+#footer-container {
+
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    /* DEBUG */
+    background-color: #DAA51D;
+    height: 300px;
+}
+
+.contact-footer {
+    width: 20%;
+    /* DEBUG */
+    background-color: #F08180;
+    height: 300px;
+    border: 2px dashed black;
+
+}
+
+.nav-footer {
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.product-footer {
+    width: 25%;
+
+    /* DEBUG */
+    background-color: #20B3AA;
+    height: 300px;
+    border: 2px dashed white;
+
+}
+
+.company-footer {
+    width: 25%;
+
+    /* DEBUG */
+    background-color: #20B3AA;
+    height: 300px;
+    border: 2px dashed white;
+
+}
+
+.resource-footer {
+    width: 25%;
+
+    /* DEBUG */
+    background-color: #20B3AA;
+    height: 300px;
+    border: 2px dashed white;
+
+}
+
+.norm-footer {
+    width: 25%;
+
+    /* DEBUG */
+    background-color: #20B3AA;
+    height: 300px;
+    border: 2px dashed white;
+
+}
+
+/* Sign-up & logo */
+
+#end-footer {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* DEBUG */
+    background-color: #7FFFD4;
+    height: 50px;
+}
+
+.logo-footer {
+    padding-left: 5px;
+    /* DEBUG */
+    background-color: #FDB7BF;
+    height: 20px;
+    border: 2px dashed black;
+}
+
+.sign-up-button {
+    padding-right: 5px;
+    /* DEBUG */
+    background-color: #FDB7BF;
+    height: 20px;
+    border: 2px dashed black;
+}
+
+#end-footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+
+}
