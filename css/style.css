@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 ul {
@@ -26,8 +26,18 @@ a {
     background-color: #fff;
     border-radius: 20px;
     padding: 8px;
+    color: black;
+    margin: 20px;
 }
 
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
 /* Header */
 
 header {
@@ -36,6 +46,8 @@ header {
     justify-content: center;
     flex-direction: column;
     background-color: #255EE9;
+    color: white;
+    font-size: 16px;
 }
 
 /* Header Logo/nav/Login */
@@ -95,6 +107,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 650px;
+    text-align: center;
     /* DEBUG */
     /* background-color: #00018B;
     height: 300px; */
@@ -106,6 +122,11 @@ header {
     /* background-color: #EF82ED;
     height: 250px;
     border: 2px dashed black; */
+}
+
+.browser-link {
+    background-color: #232828;
+    color: white;
 }
 
 /* Main */
