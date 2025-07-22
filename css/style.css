@@ -30,6 +30,13 @@ a {
     margin: 20px;
 }
 
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
 .arrow-size {
     padding-right: 5px;
 }
@@ -57,13 +64,6 @@ p {
     margin: 25px 0;
 }
 
-button {
-    background-color: none;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-}
 
 button:hover {
     background-color: #43B581;
@@ -370,7 +370,7 @@ footer {
 #end-footer-container {
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 80px;

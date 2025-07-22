@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
@@ -15,8 +15,9 @@
 <body>
     <!-- Intestazione -->
     <header>
-        <div class="header-container">
+        <section class="header-container">
             <div id="logo-header">
+
                 <img src="img/logo.svg" alt="logo discord">
             </div>
             <nav class="nav-top">
@@ -32,19 +33,22 @@
             <div id="login">
                 <button type="button" class="button-layout">Accedi</button>
             </div>
-        </div>
-        <div id="jumbotron-container">
+        </section>
+        <section id="jumbotron-container">
             <div class="jumbotron">
-                <h1>Il tuo posto per parlare</h1>
+                <h1>Il tuo posto per parlare</h1> 
+
+                <!-- correzione, puoi usare line-height per mettere interlinea-->
                 <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o
                     semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più
                     facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
-                <button type="button" class="download-mac button-layout"><i class="fa-solid fa-down-long arrow-size"></i>
-                        Scarica per Mac</button>
-                <button type="button" class="browser-link button-layout">Apri Discord nel tuo browser</button></a>
+                <button type="button" class="download-mac button-layout"><i
+                        class="fa-solid fa-down-long arrow-size"></i>
+                    Scarica per Mac</button>
+                <button type="button" class="browser-link button-layout">Apri Discord nel tuo browser</button>
 
             </div>
-        </div>
+        </section>
 
 
     </header>
@@ -110,11 +114,13 @@
 
                     <img class="img-container" src="img/item4-big.svg" alt="video setting">
 
+                    <!-- correzione, le stelline andavano usate come bg e per poterle centrare andava usato il padding -->
                     <img src="img/stars.svg" alt="stars">
-                      <h3>Pronto a iniziare la tua avventura?</h3>
+                    <h3>Pronto a iniziare la tua avventura?</h3>
 
-                    <button type="button" class="button-layout light-blue"> <i class="fa-solid fa-down-long arrow-size"></i>
-                            Scarica per Mac</button>
+                    <button type="button" class="button-layout light-blue"> <i
+                            class="fa-solid fa-down-long arrow-size"></i>
+                        Scarica per Mac</button>
 
                 </div>
             </div>
@@ -128,8 +134,13 @@
             <div class="contact-footer">
                 <h3 class="footer-text">Il tuo posto per parlare</h3>
                 <div class="flag"></div>
-                <!-- <img class="flag" src="img/ita.png" alt="bandiera italiana"> -->
-                <span class="language">Italiano &#8964;</span><br>
+                <!-- <img class="flag" src="img/ita.png" alt="bandiera italiana"> 
+                 da provare come inline-block e dimensioni oppure dentro una "a" con id e usare widht-->
+                <span class="language">Italiano &#8964;
+                    <!-- <i class="fa-solid fa-angle-down"></i> -->
+                </span>
+                <!-- correzione per le lingue c'è select e option -->
+                <br>
                 <i class="fa-brands fa-twitter logo-social"> </i>
                 <i class="fa-brands fa-instagram logo-social"> </i>
                 <i class="fa-brands fa-facebook logo-social"> </i>
